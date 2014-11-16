@@ -156,6 +156,12 @@ body {
 
 /* START OF SECOND SECTION */
 
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
 .cases h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
@@ -189,6 +195,7 @@ body {
 .cases .devices p {
 	font-weight: 300;
 	font-size: 1.313rem;
+	margin-bottom: 7.875rem;
 }
 
 /* END OF SECOND SECTION */
@@ -207,7 +214,8 @@ body {
 	font-weight: 400;
 	font-size: 1.563rem;
 	color: #f15a29;
-	margin: 2.5rem 0px 1.875rem;
+	display: block;
+	padding: 1rem 1.5rem;
 }
 
 .buy-now p {
@@ -220,14 +228,17 @@ body {
 
 button {
 	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
 	padding: 1rem 1.5rem;
 	color: white;
 	font-size: 1.125rem;
-	background-color: #f15a29;
-	border-color: #f15a29;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
 }
 
 button:hover {
@@ -239,11 +250,22 @@ button:hover {
 .buy-now .adjustable {
 	width: 15rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	margin-left: 9rem;
+	padding-top: 50px;
 }
+
 
 /* END OF THIRD SECTION */
 
 /* BEGINNING OF FOOTER */
+
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-top: 3rem;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
 
 .social .list {
 	margin-top: 7.875rem;
@@ -261,7 +283,7 @@ button:hover {
 
 .social hr {
 	border: 0px;
-	border-top: 1px solid #eaebec;
+	border-top: 1px solid #cfd2d4;
 	margin: 1.313rem 0;
 }
 
@@ -287,7 +309,7 @@ hr {
 	height: 2.5rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
-	border: 1px solid #eaebec;
+	border: 1px solid #cfd2d4;
 	padding: 0.625rem 0;
 	text-align: center;
 }
