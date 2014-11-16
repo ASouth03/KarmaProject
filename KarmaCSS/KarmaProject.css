@@ -92,7 +92,7 @@ body {
 /*START OF INTRO SECTION*/
 
 .introduction {
-	background-image: url('img/first-background.jpg');
+	background-image: url('../img/first-background.jpg');
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -196,7 +196,7 @@ body {
 /* START OF THIRD SECTION */
 
 .buy-now {
-	background-image: url('img/buy-now-bg.jpg');
+	background-image: url('../img/buy-now-bg.jpg');
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
