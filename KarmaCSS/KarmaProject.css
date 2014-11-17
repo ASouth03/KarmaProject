@@ -96,6 +96,7 @@ body {
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: auto;
 	height: 42rem;
 }
 
