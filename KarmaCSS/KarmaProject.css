@@ -327,4 +327,9 @@ hr {
 	color: #838994;
 }
 
-/* END OF FOOTER */
+/* START OF RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 1080px) {
+  .buy-now {
+      height: 38rem;
+  }
