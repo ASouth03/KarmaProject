@@ -208,7 +208,6 @@ margin-right: auto;
 
 .buy-now p {
 	font-weight: 300;
-	font-size: 1.15rem;
 	line-height: 1.5;
 	color: #4c5058;
 	margin-bottom: 1.250rem;
@@ -236,11 +235,10 @@ button:hover {
 }
 
 .buy-now .adjustable {
-	width: 18rem;
+	width: 15rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	margin-left: 7rem;
 	padding-top: 50px;
-	text-align: center;
 }
 
 /* BEGINNING OF FOOTER */
