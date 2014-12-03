@@ -200,7 +200,7 @@ margin-right: auto;
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: auto;
+	overflow: hidden;
 	height: 42rem;
 }
 
