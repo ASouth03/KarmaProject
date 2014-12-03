@@ -87,8 +87,6 @@ body {
 	height: 4.375rem;
 }
 
-/*END OF NAV BAR*/
-
 /*START OF INTRO SECTION*/
 
 .introduction {
@@ -145,8 +143,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-/* END OF INTRO SECTION */
-
 /* START OF SECOND SECTION */
 
 .cases {
@@ -190,8 +186,6 @@ margin-right: auto;
 	font-size: 1.313rem;
 	margin-bottom: 7.875rem;
 }
-
-/* END OF SECOND SECTION */
 
 /* START OF THIRD SECTION */
 
@@ -242,14 +236,12 @@ button:hover {
 }
 
 .buy-now .adjustable {
-	width: 15rem;
+	width: 18rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-	margin-left: 9rem;
+	margin-left: 7rem;
 	padding-top: 50px;
+	text-align: center;
 }
-
-
-/* END OF THIRD SECTION */
 
 /* BEGINNING OF FOOTER */
 
@@ -320,7 +312,7 @@ hr {
 	color: #3f729b;
 }
 
-.content p {
+.social .content p {
 	text-align: center;
 	font-size: 0.9rem;
 	font-weight: 300;
