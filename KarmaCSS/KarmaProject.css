@@ -139,7 +139,6 @@ body {
 }
 
 .bouncing-arrow {
-	position: absolute;
 	height: 5.625rem;
 	bottom: 0;
 	width: 3.250rem;
@@ -149,7 +148,7 @@ body {
 }
 
 .bouncing-arrow img {
-	-webkit-animation: bounce 1.2s ease-in-out infinite alternate;
+	text-align: center;
 }
 
 /* END OF INTRO SECTION */
@@ -207,6 +206,7 @@ body {
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: auto;
 	height: 42rem;
 }
 
