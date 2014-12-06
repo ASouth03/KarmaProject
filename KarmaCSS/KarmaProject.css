@@ -319,10 +319,13 @@ hr {
 
 /* START OF RESPONSIVE DESIGN */
 
-@media only screen and (max-width: 500px) {
-	.top-navigation .links {
-		content: 
+@media only screen and (min-width: 1500px) {
+	.top-navigation > .content {
+		width: 1000px;
 	}
+}
+
+@media only screen and (max-width: 500px) {
 	h1.introduction {
     	font-size: 1.75rem;
   	}
@@ -350,7 +353,7 @@ hr {
 	}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 	.cases .devices {
 		margin-bottom: 15rem;
 		width: 100%;
