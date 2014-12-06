@@ -332,14 +332,6 @@ hr {
   .top-navigation > .content {
   	overflow: hidden;
   }
-  .cases .devices {
-		width: 100%;
-		display: block;
-		position: relative;
-		min-height: 1px;
-		padding-left: 15px;
-		padding-right: 15px;
-  }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
@@ -355,13 +347,16 @@ hr {
 	.top-navigation > .content {
 		overflow: hidden;
 	}
-	.cases .devices {
-		width: 100%;
-		display: block;
-		position: relative;
-		min-height: 1px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
 }
 
+@media only screen and (max-width: 1000px) {
+	#mediaVert {
+  display: table;
+	}
+
+	.devices {
+  		display: table-cell;
+  		vertical-align: middle;
+  		height: 350px; /* for example, guess you have to specify it */
+	}
+}
