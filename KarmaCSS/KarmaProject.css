@@ -320,6 +320,9 @@ hr {
 /* START OF RESPONSIVE DESIGN */
 
 @media only screen and (max-width: 500px) {
+	.introduction {
+		background-image: cover;
+	}
 	h1.introduction {
     	font-size: 1.75rem;
   	}
