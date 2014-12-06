@@ -351,3 +351,9 @@ hr {
 }
 
 @media only screen and (max-width: 1000px) {
+	.cases .devices {
+		margin-bottom: 15rem;
+		width: 100%;
+		display: block;
+	}
+}
