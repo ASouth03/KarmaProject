@@ -322,13 +322,17 @@ hr {
 @media only screen and (max-width: 500px) {
 	h1.introduction {
     	font-size: 1.75rem;
-  }
+  	}
   	h3.introduction {
 		font-size: .95rem;	
-  }
+  	}
   .top-navigation > .content {
-  	overflow: hidden;
-  }
+  		overflow: hidden;
+  	}
+  .big-button {
+		width: 12rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
