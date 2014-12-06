@@ -333,7 +333,12 @@ hr {
   	overflow: hidden;
   }
   .cases .devices {
-  	display: block;
+		width: 100%;
+		display: block;
+		position: relative;
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
   }
 }
 
@@ -351,11 +356,12 @@ hr {
 		overflow: hidden;
 	}
 	.cases .devices {
-		width: 33.333%;
+		width: 100%;
 		display: block;
-		box-sizing: border-box;
-		height: 4em;
-		margin-right: -4px;
+		position: relative;
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
